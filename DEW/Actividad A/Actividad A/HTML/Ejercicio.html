@@ -30,6 +30,33 @@
     #Negrita {
         font-weight: bold;
     }
+
+    .Formularios {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        box-shadow: 0px 0px 50px black;
+    }
+
+    img {
+        width: 250px;
+        height: 300px;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
 </style>
 <body>
 <div class="Ejercicios">
@@ -208,6 +235,67 @@
     </table>
 </div>
 
+<div class="Ejercicios">
+    <div class="container">
+        <select id="opciones">
+            <option value="opcion1">Lentejas</option>
+            <option value="opcion2">Paella</option>
+            <option value="opcion3">Ropa Vieja</option>
+            <option value="opcion4">Ensalada</option>
+        </select>
+    </div>
+
+    <div class="Formularios">
+        <label for="radios">Selecciona una opción:</label>
+        <input type="radio" id="radio1" name="radios" value="opcion1">
+        <label for="radio1">Lentejas</label>
+        <input type="radio" id="radio2" name="radios" value="opcion2">
+        <label for="radio2">Paella</label>
+        <input type="radio" id="radio3" name="radios" value="opcion3">
+        <label for="radio3">Ropa Vieja</label>
+        <input type="radio" id="radio4" name="radios" value="opcion4">
+        <label for="radio4">Ensalada</label>
+    </div>
+
+    <div class="container">
+        <label for="nombre">Nombre y apellidos:</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre">
+    </div>
+
+    <div class="container">
+        <label>Selecciona una o varias opciones:</label>
+        <input type="checkbox" id="checkbox1" name="checkboxes" value="opcion1">
+        <label for="checkbox1">Lentejas</label>
+        <input type="checkbox" id="checkbox2" name="checkboxes" value="opcion2">
+        <label for="checkbox2">Paella</label>
+        <input type="checkbox" id="checkbox3" name="checkboxes" value="opcion3">
+        <label for="checkbox3">Ropa Vieja</label>
+        <input type="checkbox" id="checkbox4" name="checkboxes" value="opcion4">
+        <label for="checkbox4">Ensalada</label>
+    </div>
+
+</div>
+
+<div class="Ejercicios">
+    <button onclick="openPopup()">Abrir Pop-up</button>
+
+    <div id="popup" class="popup">
+        <img src="smurf.jpg" alt="Imagen" id="image" width="300" height="200">
+        <button class="close-btn" onclick="closePopup()">Cerrar</button>
+    </div>
+
+    <script>
+        function openPopup() {
+            var popup = document.getElementById("popup");
+            popup.style.display = "block";
+        }
+
+        function closePopup() {
+            var popup = document.getElementById("popup");
+            popup.style.display = "none";
+        }
+    </script>
+</div>
 
 </body>
 </html>
