@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabla de multiplicar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      
+    }
+    form {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    input[type="number"] {
+      width: 100px;
+    }
+    button {
+      padding: 10px 20px;
+    }
+    #tablaResultado {
+      text-align: center;
+    }
+    .resultado-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .resultado {
+      border: 1px solid black;
+      padding: 5px;
+      margin-top: 1em;
+      width: auto;
+      min-width: 8rem;
+      
+    }
+  </style>
+</head>
+<body>
+  
+  <h1>Tabla de multiplicar</h1>
+  <form id="tablaForm">
+    <label for="numero">Ingrese un número:</label>
+    <input type="number" id="numero" name="numero">
+    <button type="submit">Mostrar tabla</button>
+  </form>
+  <div id="tablaResultado">
+    <div class="resultado-container"></div>
+  </div>
+  <script>
+    document.getElementById("tablaForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Evitar que el formulario se envíe
+      let numeroInput = document.getElementById("numero");
+      let numero = numeroInput.value;
+      let tablaResultado = document.querySelector(".resultado-container");
+      tablaResultado.innerHTML = ""; // Limpiar el contenido anterior
+      if (numero == "" || numero == 0) {
+        tablaResultado.innerHTML = "No se genera tabla";
+      } else {
+        numero = parseInt(numero);
+        for (let i = 1; i <= 10; i++) {
+          let resultado = numero * i;
+          tablaResultado.innerHTML += '<div class="resultado">' + numero + " x " + i + " = " + resultado + "</div>";
+        }
+      }
+      numeroInput.value = ""; // Vaciar el input después de enviar el formulario
+    });
+  </script>
+</body>
+</html>
