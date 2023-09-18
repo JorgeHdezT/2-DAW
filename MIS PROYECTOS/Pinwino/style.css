@@ -1,0 +1,151 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98.1vh;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+  }
+
+.pingu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cabeza {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(18, 110, 163);
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#mitadIZQ {
+  background: white;
+  border-radius: 40% 60% 50% 0%;
+  position: absolute;
+  margin-left: 80px;
+  width: 83px;
+  height: 120px;
+}
+#mitadDER{
+  background: white;
+  border-radius: 40% 60% 50% 0%;
+  position: absolute;
+  margin-left: -80px;
+  width: 83px;
+  height: 120px;
+  transform: rotateY(180deg);
+}
+
+#medioCirculo{
+  margin-top: 3em;
+  position: absolute;
+  width: 155px;
+  height: 120px;
+  border-radius: 20px 20px 50% 50%;
+  background-color: white;
+
+}
+#ojo {
+  position: absolute;
+  margin-right: 100px;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+}
+#ojo2 {
+  position: absolute;
+  margin-left: 100px;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+#ojo::before {
+  content: '';
+  background-color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  /* Posiciona el pseudo-elemento dentro del elemento #ojo */
+  top: 75%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+#ojo::after {
+  content: '';
+  background-color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  /* Posiciona el pseudo-elemento dentro del elemento #ojo */
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+#ojo2::before {
+  content: '';
+  background-color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  /* Posiciona el pseudo-elemento dentro del elemento #ojo */
+  top: 75%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+#ojo2::after {
+  content: '';
+  background-color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  /* Posiciona el pseudo-elemento dentro del elemento #ojo */
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+
+}
+#pico {
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 60px;
+  border-radius: 50%;
+}
+
+#TriPico1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin-top: 2.5em;
+  border-left: 39px solid transparent;
+  border-right: 39px solid transparent;
+  border-bottom: 20px solid rgb(255, 196, 0);
+  border-radius: 10px;
+}
+
+#TriPico2 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin-top: 4.5em;
+  border-left: 39px solid transparent;
+  border-right: 39px solid transparent;
+  border-bottom: 20px solid rgb(255, 196, 0);
+  transform: rotateX(180deg);
+  border-radius: 10px;
+}
