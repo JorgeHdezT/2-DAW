@@ -75,7 +75,7 @@ Deseo contruir una estructura de maximo 8 subredes.
 
 Calcular: 
 
-Máscara correspondiente a la IP. 		=	11100000 en binario = 224 en decimal 11111111.11111111.11100000.00000000	
+Máscara correspondiente a la IP. 		=	11100000 en binario = 224 en decimal 11111111.11111111.11100000.00000000 /27	
 Numero de hosts direccionables por subred.	=	2^5 - 2 = 32 - 2 = 30
 Las direcciones de las subredes.		= 	Subred 1: 192.168.32.0
 							Subred 2: 192.168.32.32
@@ -86,6 +86,41 @@ Las direcciones de las subredes.		= 	Subred 1: 192.168.32.0
 							Subred 7: 192.168.32.192
 							Subred 8: 192.168.32.224
 
+=====================================================
+
+TCP/IP
+==========
+
+Conjunto de varios protocolos organizado por capas y por niveles.
+----------------------------
+MODELO OSI:
+-----------------------------
+
+	- Aplicación
+	- Presentación
+	- Sesión
+	- Transporte
+	- Red
+	- Enlace
+	- Física
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Enlace: Es la segunda capa del modelo OSI. Su principal función es proporcionar una comunicación confiable y sin errores entre dos nodos directamente conectados en una red. 
+
+Conceptos clave y funciones de la capa de Enlace en el modelo OSI incluyen:
+----------------------------------------------------------------------------
+
+1. **Direccionamiento MAC:** Cada dispositivo de red tiene una dirección MAC (Media Access Control) única que se utiliza para identificarlo en la capa de Enlace.
+
+2. **Control de acceso al medio:** Controlar el acceso al medio de transmisión compartido, como un cable o una red inalámbrica, para evitar colisiones de datos.
+
+3. **Segmentación y reensamblaje de tramas:** Los datos se dividen en tramas más pequeñas en la capa de Enlace antes de ser transmitidos y se vuelven a ensamblar en el destino.
+
+4. **Detección y corrección de errores:** La capa de Enlace utiliza técnicas de detección y corrección de errores para garantizar que los datos se transmitan de manera confiable y sin corrupción.
+
+5. **Control de flujo:** La capa de Enlace también se encarga de controlar el flujo de datos entre los dispositivos conectados para evitar que un dispositivo rápido sature a uno más lento.
+
+En resumen, la capa de Enlace en el modelo OSI y el modelo TCP/IP se centra en la transmisión confiable de datos en una red y en la gestión del acceso al medio físico. En el modelo TCP/IP, estas funciones se distribuyen entre la subcapa de Enlace de Datos y la subcapa de Control de Acceso al Medio (MAC).
 
 
 

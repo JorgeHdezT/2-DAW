@@ -1,0 +1,2 @@
+En este ejercicio aprenderemos a vincular
+un archivo de javascript a un HTML.
