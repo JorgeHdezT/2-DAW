@@ -38,7 +38,7 @@ class Personaje {
 class Mago extends Personaje {
     constructor(nombre) {
         super(nombre);
-        this.setRaza("Pyxis");
+        this.setRaza(razas[Math.floor(Math.random() * razas.length)]);
         this.vida_max = 80;
         this.ataque = 20;
         this.defensa = 10;
@@ -51,7 +51,7 @@ class Mago extends Personaje {
 class Guerrero extends Personaje {
     constructor(nombre) {
         super(nombre);
-        this.setRaza("Penguin");
+        this.setRaza(razas[Math.floor(Math.random() * razas.length)]);
         this.vida_max = 100;
         this.ataque = 30;
         this.defensa = 20;
@@ -64,7 +64,7 @@ class Guerrero extends Personaje {
 class Arquero extends Personaje {
     constructor(nombre) {
         super(nombre);
-        this.setRaza("Pyxis");
+        this.setRaza(razas[Math.floor(Math.random() * razas.length)]);
         this.vida_max = 80;
         this.ataque = 10;
         this.defensa = 10;
