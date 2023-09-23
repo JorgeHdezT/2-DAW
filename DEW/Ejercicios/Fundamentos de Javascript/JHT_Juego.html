@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspeccionar Personaje</title>
+</head>
+<body>
+    <h1>Inspeccionar Personaje</h1>
+    <form id="inspeccionForm">
+        <label for="personaje">Selecciona un Personaje:</label>
+        <select id="personaje" required>
+            <option value="merlin">Merlin el mago</option>
+            <option value="rufus">Rufus el guerrero</option>
+            <option value="antares">Antares la arquera</option>
+            <option value="hache">Hache el pingüino</option>
+        </select><br><br>
+
+        <button type="button" onclick="inspeccionarPersonaje()">Inspeccionar</button>
+    </form>
+
+    <h2>Información del Personaje:</h2>
+    <div id="informacionPersonaje">
+        <!-- Aquí se mostrará la información del personaje seleccionado -->
+    </div>
+
+    <script src="JHT_Juego.js"></script>
+    <script src="JHT_Juego_WebForm.js"></script>
+</body>
+</html>
