@@ -1,5 +1,5 @@
 // Clase para un Personaje
-const razas = ['Pyxis', 'Musca', 'Lyris'];
+const razas = ['Pyxis', 'Musca', 'Lyris', 'Pingu'];
 
 class Personaje {
     constructor(nombre) {
