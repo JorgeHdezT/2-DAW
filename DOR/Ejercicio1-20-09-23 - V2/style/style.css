@@ -24,14 +24,15 @@ header {
 
   
 #navbar {
-    background-color: rgba(255, 255, 255, 0.749);
-    box-shadow: 0px 0px 10px black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    border-radius: 20px;
-    width: 600px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.749);
+  box-shadow: 0px 0px 10px black;
+  justify-content: center;
+  gap:20px;
+  flex-wrap: wrap;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
 
 }
 
@@ -42,6 +43,16 @@ header {
     text-decoration: none;
     width: 100px;
     font-weight: bold;
+    border: 3px solid rgb(0, 0, 0);
+    color: black;
+    transition: all 0.25s;
+}
+
+#navbar a:hover {
+  border-radius: 20px;
+  background-color: #3799db;
+  color: white;
+  border: 3px solid rgb(255, 255, 255);
 
 }
 
