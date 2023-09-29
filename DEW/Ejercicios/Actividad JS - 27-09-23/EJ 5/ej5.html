@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <div class="Container"> 
+        <h1>Estación correspondiente al mes </h1> 
+        <h2>NOTA: algunos meses pertenecen a 2 estaciones, a estos se les asigna al que mayor parte del tiempo pertenecen.</h2>
+        <form id="notaForm"> 
+            <label for="notaInput">Mes del año: </label>
+            <select name="mes" id="mesInput">
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+
+            </select>
+            <button type="button" onclick="calcularResultado()">Corresponde</button> 
+        </form> 
+    </div>
+
+    <div id="Resultado"></div> 
+
+    <script src="ej5.js"></script>
+
+</body>
+</html>
