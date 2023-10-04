@@ -1,0 +1,35 @@
+.Container {
+    background-color: navy;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    flex-basis: 10%;
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    width: 500px;
+    margin: auto;
+}
+
+#notaInput {
+    width: 124px;
+}
+
+#Resultado {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin: 10px auto;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

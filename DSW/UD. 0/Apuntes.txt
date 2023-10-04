@@ -1,0 +1,116 @@
+Modelo cliente servidor:
+---------------------
+
+	- Recibimos peticiones del cliente y nosotros nos encargamos del codigo de respuesta.
+	- El cliente es cualquier persona con acceso a internet.
+
+
+================================================================
+================================================================
+
+ESQUEMA DE INTERACCION:
+--------------------------
+
+	- El cliente envia una peticion HTTP a un servidor web
+	- El servidor está escuchando siempre peticiones por puerto TCP (usual 80)
+	- Cuando la recibe, lo busca y lo envia de vuelta.
+
+================================================================
+================================================================
+
+METODOS HTTP
+------------------------------
+
+Options	=> 	Solicita opciones de comunicacion disponibles.
+Get	=>	 Solicita un recurso al servidor identificandolo por su URL
+Head	=> 	Identico al get pero solo devuelve cabeceras de la respuesta
+Post	=>	Envio de datos al servidor
+Put	=> 	Almacenar un documento en la url especificada
+Delete	=>	Borrar el documento indicado por la URL
+Trace 	=>	Obtener del servidor copia de la peticion enviada.
+
+================================================================
+================================================================
+
+ESQUEMA: 
+------------------------------------
+
+scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
+
+================================================================
+================================================================
+
+
+ARQUITECTURAS WEB:
+_____________________________
+
+	- MPA => Multi page application: Clasica.
+		  Cada peticion devuelve la web completa.
+
+	- SPA => Single page application: Moderna.
+		 Solo la primera peticion devuelve una pag. El resto, datos.
+		 Devuelve archivos .JSON
+
+
+================================================================
+================================================================
+
+ 
+PAGINAS ESTATICAS:
+
+	- Almacenadas y no cambian.
+	- Se modifica manualmente el css, html y js.
+
+PAGINAS DINAMICAS:
+
+	- Cambian constantemente mediante peticiones etc.
+
+
+================================================================
+================================================================
+
+DESAFIOS:
+
+	- Rendimiento = Que funcione rapido
+	- Escalabilidad = Que no sea dificil de mejorar
+	- Seguridaad = Evitar suplantacion, modificacion de recursos etc.
+
+
+================================================================
+================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
