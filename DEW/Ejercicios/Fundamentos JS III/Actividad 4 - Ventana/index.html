@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Control de Ventana</title>
+    <style>
+
+        body {
+            font-family: sans-serif;
+        }
+        #contenedor {
+            margin: 20px;
+            padding: 20px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+
+        #botones {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            font-weight: bold;
+        }
+        #botones button, .boton {
+            width: 100px;
+            height: 40px;
+            background: transparent;
+            border: 3px solid dodgerblue;
+            transition: all .5s;
+            font-weight: bold;
+            box-shadow: 5px 5px 2px rgb(118, 118, 118);
+        }
+
+        #botones button:hover, .boton:hover {
+            cursor:pointer;
+            border-radius: 20px;
+            transform: scale(90%);
+        }
+
+        input  {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <h1>GESTIONAR VENTANAS CON JAVASCRIPT</h1>
+        <div id="botones">
+            <button class="boton" onclick="abrirVentana()">Abrir Ventana</button>
+            <button class="boton" onclick="cerrarVentana()">Cerrar Ventana</button>
+            <button class="boton" onclick="ampliarVentana()">Ampliar</button>
+            <button class="boton" onclick="reducirVentana()">Reducir</button>
+        </div>
+        
+        <br>
+
+        <div id="inputs">
+            <label>Posición X:</label>
+            <input type="text" id="posX" value="0">
+            <label>Posición Y:</label>
+            <input type="text" id="posY" value="0">
+        </div>
+
+        <br>
+        
+        <button class="boton" onclick="moverVentana()">Mover</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

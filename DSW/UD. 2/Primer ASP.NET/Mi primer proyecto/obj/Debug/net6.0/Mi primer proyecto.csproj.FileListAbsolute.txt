@@ -1,0 +1,30 @@
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\bin\Debug\net6.0\appsettings.json
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\bin\Debug\net6.0\Mi primer proyecto.staticwebassets.runtime.json
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\bin\Debug\net6.0\Mi primer proyecto.exe
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\bin\Debug\net6.0\Mi primer proyecto.deps.json
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\bin\Debug\net6.0\Mi primer proyecto.runtimeconfig.json
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\bin\Debug\net6.0\Mi primer proyecto.dll
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\bin\Debug\net6.0\Mi primer proyecto.pdb
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\Mi primer proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\Mi primer proyecto.AssemblyInfoInputs.cache
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\Mi primer proyecto.AssemblyInfo.cs
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\Mi primer proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\Mi primer proyecto.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\Mi primer proyecto.RazorAssemblyInfo.cache
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\Mi primer proyecto.RazorAssemblyInfo.cs
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\staticwebassets\msbuild.Mi primer proyecto.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\staticwebassets\msbuild.build.Mi primer proyecto.props
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Mi primer proyecto.props
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Mi primer proyecto.props
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\scopedcss\bundle\Mi primer proyecto.styles.css
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\scopedcss\projectbundle\Mi primer proyecto.bundle.scp.css
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\Mi primer proyecto.dll
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\refint\Mi primer proyecto.dll
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\Mi primer proyecto.pdb
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\Mi primer proyecto.genruntimeconfig.cache
+C:\Users\Hache\Desktop\2-DAW\DSW\UD. 2\Primer ASP.NET\Mi primer proyecto\obj\Debug\net6.0\ref\Mi primer proyecto.dll

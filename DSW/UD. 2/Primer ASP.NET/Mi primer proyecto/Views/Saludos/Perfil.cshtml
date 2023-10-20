@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Página Saludos";
+}
+
+@model Mi_primer_proyecto.Models.Perfil
+
+<h2>Index Action - Perfil Controller</h2>
+
+@{
+    
+
+
+    <h1> Datos del usuario</h1>
+    <ul>
+        <li> @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</li>
+        <li> @Html.DisplayNameFor(model => model.Id): @Html.DisplayFor(model => model.Id)</li>
+        <li> @Html.DisplayNameFor(model => model.Age): @Html.DisplayFor(model => model.Age)</li>
+        <li> @Html.DisplayNameFor(model => model.Email): @Html.DisplayFor(model => model.Email)</li>
+    </ul>
+}
+
+

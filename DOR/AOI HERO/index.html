@@ -1,92 +1,153 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <link rel="stylesheet" href="style/indexStyle.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AOI HERO</title>
+    <link rel="stylesheet" href="style/mobileStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aoi Hero</title>
 </head>
 <body>
-  <header>
-    <a href="" id = "buscar" class="lateralizq">
-      <svg viewBox="0 0 19 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="none" stroke-width="1" fill="currentColor" fill-rule="nonzero">
-        <g transform="translate(0.000000, 0.472222)">
-          <path d="M14.3977778,14.0103889 L19,19.0422222 L17.8135556,20.0555556 L13.224,15.0385 C11.8019062,16.0671405 10.0908414,16.619514 8.33572222,16.6165556 C3.73244444,16.6165556 0,12.8967778 0,8.30722222 C0,3.71766667 3.73244444,0 8.33572222,0 C12.939,0 16.6714444,3.71977778 16.6714444,8.30722222 C16.6739657,10.4296993 15.859848,12.4717967 14.3977778,14.0103889 Z M8.33572222,15.0585556 C12.0766111,15.0585556 15.1081667,12.0365 15.1081667,8.30827778 C15.1081667,4.58005556 12.0766111,1.558 8.33572222,1.558 C4.59483333,1.558 1.56327778,4.58005556 1.56327778,8.30827778 C1.56327778,12.0365 4.59483333,15.0585556 8.33572222,15.0585556 Z"></path>
-        </g>
-      </svg>
-      <p>Buscar</p>
-    </a>
+    <header>
+        <section id="Buscar">
+            <div class="MovilNav_Container">
+                <div class="imagenNavMovil"></div>
+                
+                <div class="MovilNav">
+                    <input type="text" placeholder="Buscas algo?">
+                    <ul>
+                        <li><a class="active" href="">Inicio</a></li>
+                        <li><a href="pages/ofertas.html">Ofertas %</a></li>
+                        <li><a href="">Stickers</a></li>
+                        <li><a href="">Llaveros</a></li>
+                        <li><a href="">Camisetas</a></li>
+                        <li><a href="">Tazas</a></li>
+                        <li><a href="">Sobre Nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+            <img class="icon" src="images/lupa.png" alt="">
+        </section>
 
-    <img src="images/logo 180px.png" alt="">
+        <img id="logo" src="images/logo 180px.png" alt="">
 
-    <div class="lateraldrch" id="userprofile">
-      <a href="">Cuenta</a>
-      <a href="">
-        <p>Carrito</p>
-        <img src="/images/carrito.png" id="carrito">
-      </a>
-    </div>
+        <section id="Cuenta">
+            <a href="pages/perfil.html">
+                <img class="icon" src="images/perfil.png" alt="">
+            </a>
+            <img class="icon" src="images/carrito.png" alt="">
+        </section>
+    </header>
+
+    <nav id="navbar">
+        <ul>
+            <li><a class="active" href="">Inicio</a></li>
+            <li><a href="pages/ofertas.html">Ofertas %</a></li>
+            <li><a href="">Stickers</a></li>
+            <li><a href="">Llaveros</a></li>
+            <li><a href="">Camisetas</a></li>
+            <li><a href="">Tazas</a></li>
+            <li><a href="">Sobre Nosotros</a></li>
+        </ul>
+    </nav>
+
+    <section id="carrusel">
+        <div class="flecha">&lt;</div>
+        <section id="slider"></section>
+        <div class="flecha">&gt;</div>
+    </section>
+    <section id="slidernav">
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
     
-  </header>
-  
-  <section class="navbar">
-    <a href="">INICIO</a>
-    <a href="">NOVEDADES</a>
-    <a href="">CAMISETAS</a>
-    <a href="">STICKERS</a>
-    <a href="">LLAVEROS</a>
-    <a href="">TAZAS</a>
-    <a href="">SOBRE NOSOTROS</a>
-  </section>
 
-  <section class="infoimg">
-    <img src="images/infoimg.png" alt="">
-  </section>
 
-  <section class="expositor">
-    <article class="producto" id="producto1">
-      <h3>PRODUCTO 1</h3>
-      <a href="www.google.com" class="productimg">
-        <h1>VER PRODUCTO</h1>
-      </a>
-    </article>
+    <main>
 
-    <article class="producto" id="producto1">
-      <h3>PRODUCTO 1</h3>
-      <a href="www.google.com" class="productimg">
-        <h1>VER PRODUCTO</h1>
-      </a>
-    </article>
+        <div class="divisor"></div>
 
-    <article class="producto" id="producto1">
-      <h3>PRODUCTO 1</h3>
-      <a href="www.google.com" class="productimg">
-        <h1>VER PRODUCTO</h1>
-      </a>
-    </article>
+        <div id="ExplicacionTienda">
+            <h1>El mejor merchandising de anime y videojuegos</h1>
+            <br>
+            <p>Explora todos nuestros productos y escoje el que mejor encaje con tu estilo.</p>
+            <br>
+            <p>¡Conviértete en el Nº1!</p>
+        </div>
 
-    <article class="producto" id="producto1">
-      <h3>PRODUCTO 1</h3>
-      <a href="www.google.com" class="productimg">
-        <h1>VER PRODUCTO</h1>
-      </a>
-    </article>
+        <div class="divisor"></div>
 
-    <article class="producto" id="producto1">
-      <h3>PRODUCTO 1</h3>
-      <a href="https://www.google.com" class="productimg">
-        <h1>VER PRODUCTO</h1>
-      </a>
-    </article>
+        <br>
 
-    <article class="producto" id="producto1">
-      <h3>PRODUCTO 1</h3>
-      <a href="www.google.com" class="productimg">
-        <h1>VER PRODUCTO</h1>
-      </a>
-    </article>
+        <h3>NOVEDADES</h3>
+        <p>VER TODO</p>
+        <section id="novedades">
+            <article class="producto">
+                <div class="imagenproducto" id="camisanaruto"></div>
+                <p>Camiseta Lazy Ninja | By Hache | Novedad </p>
+                <p>18.99 €</p>
+            </article>
 
-    
-  </section>
+            <article class="producto">
+                <div class="imagenproducto" id="cantimplora"></div>
+                <p>Cantimplora Aoi Hero | By Hache | Novedad </p>
+                <p>9.99 €</p>
+            </article>
+
+        </section>
+
+
+        <section id="caracteristicas-titulo">
+            <img src="images/texto2.png" alt="">
+            <div id="prom_vid">
+                
+            </div>
+      
+        </section>
+
+        <br>
+        <br>
+
+        <section id="caracteristicas">
+            <article class="explicacion">
+                <div id="imagen1"></div>
+                <h3>DISEÑOS ÚINCOS</h3>
+                <p>Marca la diferencia con nuestro merchandising exclusivo. ¡Lleva a donde quieras tus gustos favoritos y sé el héroe número uno!</p>
+            </article>
+
+            <article class="explicacion">
+                <div id="imagen2"></div>
+                <h3>CALIDAD PRECIO INSUPERABLE</h3>
+                <p>Nuestra relación calidad precio nos permite ofrecerte la mejor experiencia de compra posible.</p>
+            </article>
+
+            <article class="explicacion">
+                <div id="imagen1"></div>
+                <h3>DISEÑOS ÚINCOS</h3>
+                <p>Marca la diferencia con nuestro merchandising exclusivo. ¡Lleva a donde quieras tus gustos favoritos y sé el héroe número uno!</p>
+            </article>
+        </section>
+
+        <section id="suscripcion">
+            <h3>SUSCRÍBETE A NUESTRA NEWSLETTER</h3>
+            <p>No te pierdas las nuevas colecciones, reposiciones, promociones y alguna que otra sorpresa...</p>
+            <input type="email" placeholder="Coreo Electronico" value name="contact[email]">
+            <button class="button signup-form__button" type="submit">Enviar</button>
+        </section>
+
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CpB7Df0qNq7/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CpB7Df0qNq7/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CpB7Df0qNq7/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Una publicación compartida de Hache (@chenodraws)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
+        
+    </main>
+
+
+    <footer>
+        <p>Aoi Hero - By Hache</p>
+        <p>2023 Todos los derechos reservados.</p>
+        <br/>
+        <svg class="section-footer__payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#F79E1B" cx="23" cy="12" r="7"></circle><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg>
+        <svg class="section-footer__payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-paypal"><title id="pi-paypal">PayPal</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path fill="#003087" d="M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z"></path><path fill="#3086C8" d="M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z"></path><path fill="#012169" d="M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z"></path></svg>
+        <svg class="section-footer__payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"></path></svg>
+    </footer>
 </body>
 </html>

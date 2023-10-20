@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Página Saludos";
+}
+<h2>Index Action - Felicita Controller</h2>
+
+@{
+    int ID = Convert.ToInt32(ViewData["ID"]);
+    string Nombre = Convert.ToString(ViewData["name"]);
+    int Edad = Convert.ToInt32(ViewData["edad"]);
+
+    //https://localhost:7103/Saludos/Felicita?ID=1&name=Jorge&edad=21
+
+    <h1> Hoy el usuario con ID @ID llamado @Nombre cumple @Edad años</h1>
+    <ul>
+        @for(int i = 0; i < Edad; i++)
+        {
+        
+            <li>
+                <a href="https://jorgehdezt.github.io/Aoi-Hero/">
+                    Felicidades @Nombre
+                </a>
+            </li>
+        
+
+        
+        }
+    </ul>
+}
+
+

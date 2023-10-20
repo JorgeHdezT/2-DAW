@@ -1,0 +1,37 @@
+---------------------------------------------------
+        MVC (Modelo Vista Controlador):
+
+    - Patron de arquitectura de software. 
+    - Tiene una curva de aprendizaje sencilla
+
+    . La vista muestra la informacion al usuario.
+    . El controlador recibe una peticion del usuario.
+    . El modelo interactua con la base de datos.
+
+---------------------------------------------------
+
+Proyecto ASP.NET core MVC: Estructura:
+
+Asp.net core MVC
+    connected services
+    dependencias
+    properties
+    wwwroot
+    controllers             ---> Controladores del proyecto
+    models                  ---> Modelos del proyecto
+    views                   ---> Vistas del proyecto
+    appsettings.json
+    Program.cs              ---> Inicializador del proyecto
+
+---------------------------------------------------
+
+La primera vez se carga la ruta por defecto.
+La encontramos en "MapControllerRoute" de Program.cs
+
+"{controller=Home}/{action=Index}/{id?}"
+
+controller=Home --> Controlador que gestiona la peticion del usuario
+action=Index    --> Accion del controlador anterior que se ejecutara
+id              --> Parametro opcional, para obtener un id.
+
+---------------------------------------------------

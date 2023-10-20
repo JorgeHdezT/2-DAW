@@ -1,0 +1,523 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html {
+    min-height: 100%;
+    position: relative;
+    background-color: white;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background: dodgerblue;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+#Buscar {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#Buscar .imagenNavMovil {
+    background-image: url(../images/menu.png);
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    filter:invert();
+    display: visible;
+    transition: all 0.25s;
+}
+
+/*NAVEGACION MOVIL*/
+
+
+.MovilNav_Container input {
+    margin: 10px;
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: url("https://assets.digitalocean.com/labs/icons/search.svg") no-repeat 95% 50% rgb(255, 255, 255);
+    background-size: 20px;
+}
+
+.MovilNav_Container:hover .MovilNav  {
+    left: 0;
+}
+
+#Buscar .imagenNavMovil:hover {
+    background-image: url(../images/closeIcon.svg);
+    width: 30px;
+    height: 30px;
+}
+
+.MovilNav {
+    position: absolute;
+    top: 100px;
+    left: -2000px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    background: rgb(76, 76, 76);
+    height: 100%;
+    width: 60%;
+    transition: all .6s;
+    
+  }
+
+.MovilNav ul li {
+    display: flex;
+}
+.MovilNav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+/*fin navegacion movil*/
+
+#Cuenta {
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+#logo {
+    width: 140px;
+    height: 140px;
+}
+
+#navbar {
+    background-color: dodgerblue;
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+#navbar ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+a.active, a:hover {
+    background-color: orange;
+    transition: all .5s;
+}
+
+/*SLIDER*/
+
+
+#carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 5px;
+    color: dodgerblue;
+    font-size: bolder;
+    font-size: 30px;
+}
+
+#slider {
+    z-index: -1;
+    width: 100%;
+    height: 230px;
+    border-top: 2px solid white;
+    background-image: url("../images/carrusel415px.png");
+    background-size: cover;                 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.flecha {
+    display: none;
+}
+
+
+#slidernav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: none;
+}
+
+#slidernav div {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 3px solid dodgerblue;
+}
+
+#slidernav div:first-child {
+    background-color: dodgerblue;
+}
+
+/*Main*/
+
+main {
+    margin-top: 30px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ExplicacionTienda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.divisor {
+    display: flex;
+    width: 80%;
+    height: 2px;
+    background-color: rgb(50, 50, 50);
+}
+
+#novedades  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    justify-content: space-between;
+
+}
+
+.producto{
+    margin-top: 20px;
+    width: 50%;
+}
+
+.imagenproducto {
+
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+    transition: all 1s;
+    /* width: 170px;
+    height: 250px;
+    margin: 0 auto;
+    transition: all 1s; */
+    
+}
+
+#camisanaruto {
+    background-image: url("../images/naruto\ front.png");
+    background-size: cover;                 
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 10px;
+}
+
+#cantimplora {
+    background-image: url("../images/cantimplora.png");
+    background-size: cover;                 
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 10px;
+}
+
+#camisanaruto:hover {
+    background-image: url("../images/naruto\ back.png");
+}
+
+/*Explicacion de la marca*/
+
+#caracteristicas-titulo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+#caracteristicas-titulo img {
+    transform: scale(90%);
+    margin-bottom: -50px;
+}
+
+#prom_vid {
+    height: 150px;
+    background-size: cover;                 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../images/promo_vid.gif);
+}
+
+iframe {
+    width: 100%;
+}
+
+#caracteristicas {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.explicacion {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#imagen1 {
+    margin: 0 auto;
+    width: 370px;
+    height: 220px;
+    background-image: url("../images/explicacion.jpeg");
+    background-size: cover;                 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#imagen2 {
+    margin: 0 auto;
+    width: 370px;
+    height: 220px;
+    background-image: url("../images/explicacion.jpeg");
+    background-size: cover;                 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*suscripcion*/
+
+#suscripcion {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#suscripcion input[type=email], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}  
+
+#suscripcion button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #fbd154;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#suscripcion button:hover {
+    box-shadow: 0 0 10px rgb(250, 174, 34), 0 0 20px rgb(250, 174, 34);
+}
+
+
+/*Instagram*/
+.instagram-media{
+    height: 450px;
+    overflow: hidden;
+}
+/*Footer*/
+
+footer {
+    width: 100%;
+    position: absolute;
+    background-color: dodgerblue;
+    height: 100px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+/*RESPONSIVIDAD*/
+
+/*PC*/
+@media (min-width: 1281px) {
+    header {
+        height: 150px;
+    }
+
+    #logo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .imagenNavMovil {
+        display: none;
+    }
+
+    .MovilNav {
+        display: none;
+    }
+
+    #navbar {
+        display: block;
+        font-weight: bolder;
+    }
+
+    #carrusel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin: 5px;
+        color: dodgerblue;
+        font-size: bolder;
+        font-size: 50px;;
+    }
+
+    .flecha {
+        display: block;
+    }
+    
+    
+    #slidernav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        display: all;
+    }
+
+    #slider {
+        height: 600px;
+        width: 1500px;
+        background-image: url(../images/carrusel\ PC.png);                  
+    }
+
+    #slidernav div {
+        width: 30px;
+        height: 30px;;
+    }
+
+    #novedades  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    
+    }
+    
+    .producto{
+        margin-top: -60px;
+        width: 40%;
+        font-size: 25px;
+    }
+
+    .producto p {
+        margin-left: 70px;
+        margin-top: -60px;
+    }
+    
+    .imagenproducto {
+        transform: scale(80%);
+        width: 100%;
+        height: 1000px;
+        margin: 0 auto;
+        transition: all 1s;
+        /* width: 170px;
+        height: 250px;
+        margin: 0 auto;
+        transition: all 1s; */
+    }
+
+    #caracteristicas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .explicacion {
+        width: 30%;
+        height: 100%;
+        gap: 20px;
+    }
+
+    #imagen1, #imagen2 {
+        margin: 0 auto;
+        width: 100%;
+        height: 300px;
+        background-image: url("../images/explicacion.jpeg");
+        background-size: cover;                 
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #caracteristicas-titulo {
+        width: 1000px;
+    }
+
+    main {
+        margin-bottom: 180px;
+    }
+    footer {
+        font-size: 20px;
+        padding: 20px;
+        height: 150px;
+    }
+
+}
